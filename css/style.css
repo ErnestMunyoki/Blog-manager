@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-
+h1{
+    margin-bottom: 0;
+}
 #post-list div {
   padding: 8px;
   border-bottom: 1px solid #ddd;
@@ -26,7 +28,8 @@ form {
 
 input, textarea {
   display: block;
-  width: 100%;
+  width: 60%;
+  max-width: 500px;
   margin-bottom: 10px;
   padding: 8px;
   box-sizing: border-box;
@@ -36,6 +39,6 @@ button {
   padding: 10px 15px;
   background-color: #007BFF;
   color: white;
-  border: none;
+  border: 3px solid black;
   cursor: pointer;
 }
