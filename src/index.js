@@ -65,7 +65,7 @@ function addNewPostListener() {
       body: JSON.stringify(newPost)
     })
     .then(res => res.json())
-   .then(createdPost => {
+  .then(createdPost => {
   const div = document.createElement('div');
   div.textContent = createdPost.title;
   div.dataset.id = createdPost.id;
